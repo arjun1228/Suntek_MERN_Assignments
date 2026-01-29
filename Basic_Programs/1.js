@@ -1,0 +1,10 @@
+let a=10;
+console.log(typeof a);
+let username='ravi';
+console.log(typeof username);
+let status=true;
+console.log(typeof status);
+let marks=[90,89,89];
+console.log(typeof marks);
+let student={sno:1,sname:'ravi'};
+console.log(typeof student);
