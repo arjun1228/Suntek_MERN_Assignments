@@ -1,0 +1,53 @@
+-> Object Orientation is the perspective of looking at this world around us as what a collection of objects
+-> For the creation of our custom date we need to pass the constructor parameter as Date(year, month, date, hours, minutes, seconds, milliseconds) and passing a string representation is also valid like "2024-1-23T:12:23:56Z",here Z represents the UTC time.
+-> JavaScript is Single Threaded Language.
+-> A Thread can do One Task at a time.
+-> Some JavaScript engines are V8,Chakra,
+-> Browser's JavaScript runtime  = JavaScript Engine + Web API's + Event Loop's.
+-> Node JS JavaScript runtime  = JavaScript Engine + Node JS API's + Even Loop's.
+-> All the loop's in JS are Synchronous.
+-> JavaScript Engine only blocks the sync and async
+-> Sync Blocking 
+-> Sync Non-Blocking
+-> Async Non-Blocking
+-> Async Blocking
+-> setTimeout() = ({},timeout) and setInterval() = ({},timeout) these two functions acts as the Async Behaviour.
+-> The use of setInterval() is it executes the callback function for n times in the given timeout.
+-> Backend consists of 3 layers they are HTTP server, APIs, Database.
+-> The role of HTTP server is it receives the request form the client and send it to the API. The HTTP server cannot handle the client request.
+-> The role of the APIs is to handle the client request
+-> The protocol established between the API and the Database is Database Protocol.it depends on the name of the Database
+-> The use of express.js is it will create the both HTTP server and as well as APIs at the same time
+
+Backend Setup Steps
+--------------------
+1) Generate the package.json file 
+		 npm init -y
+2) Create HTTP Server
+		a. Install & import "express" module
+				npm install express
+		b. Import the express module
+
+
+
+
+
+
+
+
+
+HTTP Request Types  (CRUD operations)
+	GET - Read resources
+	POST - Create a new resource
+	PUT - Update a resource
+	DELETE - Delete a resource
+
+	GET http://127.0.0.1:3000/users
+	POST http://127.0.0.1:3000/user
+	PUT http://127.0.0.1:3000/users/<id>
+	DELETE http://127.0.0.1:3000/users/<id>
+
+	http://localhost:3000
+	
+	
+				
