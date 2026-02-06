@@ -24,8 +24,9 @@ connectDB()
 //body parsing middleware
 app.use(exp.json())
 
-//
+//if path starts with 'user-api'
 app.use('/user-api', userApp)
+//if it starts with 'product-api'
 app.use('/product-api', productApp)
 
 //Default error handling middleware

@@ -1,5 +1,6 @@
 import exp from 'express'
 import { ProductModel } from '../Models/ProductModel.js'
+
 //create mini server 
 export const productApp = exp.Router()
 

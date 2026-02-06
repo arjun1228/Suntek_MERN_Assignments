@@ -17,9 +17,8 @@ userApp.get('/users', async (req, res) => {
 //create user
 userApp.post('/users', async (req, res) => {
     let newUser = req.body
-    //run validators
+    //run validators before converting into to hashed password
     await new UserModel(newUser).validate()
-
     //hash password
     let hashedPassword = await hash(newUser.password, 10)
     newUser.password = hashedPassword

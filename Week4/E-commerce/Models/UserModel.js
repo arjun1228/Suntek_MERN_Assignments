@@ -29,6 +29,10 @@ const userSchema = new Schema({
     cart:{
         type: [cartSchema]
     }
+},{
+    strict : "throw",
+    timestamps : true,
+    versionKey : false
 })
 
 export const UserModel = model('user', userSchema)
