@@ -33,3 +33,21 @@ GET http://localhost:5000/user-api/users/69838b6f6053f4965627ed0f
 
 ###comapring ids
 GET http://localhost:5000/user-api/compare/69818a9886d9718fa1ae42c0
+
+
+### get product by id
+GET http://localhost:5000/product-api/products/6981871a34e8ec563fadedcf
+
+
+### Update product by id
+PUT http://localhost:5000/product-api/products/6981871a34e8ec563fadedcf
+Content-Type: application/json
+
+{
+    "productName" : "laptop11",
+    "price" : 60000,
+    "brand" : "apple"
+}
+
+### Delete product by id
+DELETE http://localhost:5000/product-api/products/698395746badd5f29281b533

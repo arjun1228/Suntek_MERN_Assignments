@@ -1,7 +1,7 @@
 import exp from 'express'
 import { connect } from 'mongoose'
 import { userApp } from './APIs/UserAPI.js'
-import { productApp } from './APIs/productAPI.js'
+import { productApp } from './APIs/ProductAPI.js'
 
 //create http server
 const app = exp()
